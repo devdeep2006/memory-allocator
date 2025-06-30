@@ -1,0 +1,180 @@
+# Build directories
+build/
+bin/
+obj/
+out/
+
+# Executable files
+*.exe
+*.out
+*.app
+allocator_demo
+test_*
+benchmark_*
+example_*
+
+# Object files
+*.o
+*.obj
+*.a
+*.so
+*.dylib
+*.dll
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Coverage files
+*.gcov
+*.gcda
+*.gcno
+*.lcov
+coverage.info
+coverage/
+
+# Profiling files
+gmon.out
+*.prof
+callgrind.out.*
+massif.out.*
+
+# Static analysis
+cppcheck-results.xml
+*.sarif
+
+# Documentation generated files
+docs/html/
+docs/latex/
+docs/man/
+docs/rtf/
+*.pdf
+
+# Log files
+*.log
+debug.txt
+performance_report.txt
+profile_report.txt
+benchmark_results.txt
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+.#*
+#*#
+
+# IDE and editor files
+.vscode/
+.idea/
+*.sublime-*
+*.code-workspace
+
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+*.lnk
+
+# Archives
+*.zip
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.rar
+*.7z
+
+# Package files
+*.deb
+*.rpm
+*.pkg
+*.dmg
+
+# Test artifacts
+test_results/
+test_output/
+*.test
+
+# Backup files
+*.bak
+*.backup
+*.orig
+
+# Core dumps
+core
+core.*
+*.core
+
+# Memory dumps
+*.dmp
+
+# Valgrind output
+vgcore.*
+massif.*
+cachegrind.*
+
+# Address Sanitizer
+*.asan
+
+# Docker
+.dockerignore
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Generated configuration
+config.h
+config.status
+config.log
+configure
+
+# CMake (in case someone adds CMake support)
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+CTestTestfile.cmake
+_deps/
+
+# Autotools
+aclocal.m4
+autom4te.cache/
+config.guess
+config.sub
+configure
+depcomp
+install-sh
+ltmain.sh
+missing
+mkinstalldirs
+
+# Custom ignore patterns for this project
+heap_dump_*
+memory_trace_*
+allocator_state_*
